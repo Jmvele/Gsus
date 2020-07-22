@@ -89,6 +89,10 @@ html {
           html body header .logo {
             width: 150px;
             height: auto; } }
+        @media only screen and (max-width: 576px) {
+          html body header .logo {
+            width: 100px;
+            height: auto; } }
       html body header .navbar-toggler-gsus {
         border: none; }
       html body header .bg-dark {
@@ -266,6 +270,10 @@ html {
       background-color: #fff; }
       html body main h2 {
         font-family: 'Rock Salt', cursive; }
+        @media only screen and (max-width: 576px) {
+          html body main h2 {
+            font-size: 0.85em;
+            text-align: center; } }
       html body main .section2 .thumbnail {
         object-fit: cover;
         width: 100%;
@@ -278,7 +286,7 @@ html {
         margin: auto;
         overflow: hidden; }
       html body main .section2 .card__content .card__content-overlay {
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.9);
         position: absolute;
         height: 100%;
         width: 100%;
@@ -333,10 +341,14 @@ html {
           height: 540px; }
           @media only screen and (min-width: 576px) and (max-width: 992px) {
             html body main .section3 .thumbnail {
-              height: 160px; } }
+              height: 260px; } }
+          @media only screen and (max-width: 576px) {
+            html body main .section3 .thumbnail {
+              height: 160px;
+              width: 60%; } }
         html body main .section3 p {
           font-size: 0.90em; }
-          @media only screen and (max-width: 576px) {
+          @media only screen and (max-width: 992px) {
             html body main .section3 p {
               margin-top: 20px;
               font-size: 0.6em; } }
